@@ -27,10 +27,24 @@ const styles = StyleSheet.create({
         flexDirection: "row"
     },
     img: {
-        marginLeft: 30,
+        marginLeft: 20,
         marginTop: 10,
         width: 35,
         height: 130
+    },
+    ContainerCardItems:{
+        width: 270,
+        marginLeft: 15,
+        marginTop: 20,
+    },
+    CardTitle: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: "#fff",
+        marginBottom: 10,
+    },
+    CardDescription:{
+        color: "#fff"
     }
 })
 
